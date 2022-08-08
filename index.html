@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <span class="brand">Quotes Card</span>
+      <span class="menu">
+        <a href="#about">About</a>
+        <a href="#quotesCard">Quotes</a>
+      </span>
+    </nav>
+    <main>
+      <div class="hero">
+        <form action="success.html">
+          <div class="title">Write Qoutes</div>
+          <div class="form_group">
+            <label for="email">Email</label>
+            <div>
+              <input type="email" />
+            </div>
+          </div>
+
+          <div class="form_group">
+            <label for="quotes">Quotes</label>
+            <div>
+              <textarea id="quotes" cols="30" rows="10"></textarea>
+            </div>
+          </div>
+
+          <div class="form_group">
+            <button type="submit">Send</button>
+          </div>
+        </form>
+        <img
+          src="https://images.pexels.com/photos/5011647/pexels-photo-5011647.jpeg?auto=compress&cs=tinysrgb&w=900&h=750&dpr=1"
+          alt="background"
+        />
+      </div>
+      <section id="about">
+        <h1>About</h1>
+        <center>
+          <p>
+            Quotes Card merupakan sebuah website untuk menuliskan sebuah quotes
+            kamu sendiri. Silahkan menulis quotes kamu di kolom atas, setelah
+            admin kami menyetujui, quotes kamu akan muncul di website ini
+          </p>
+        </center>
+      </section>
+
+      <section id="quotesCard">
+        <h1>Quotes</h1>
+        <div class="quotes_card q1">
+          <p>
+            "Any fool can write code that a computer can understand. Good
+            programmers write code thats human can understand." - Martin Fowler
+          </p>
+          <img
+            src="https://images.pexels.com/photos/370717/pexels-photo-370717.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="quotes pertama"
+          />
+        </div>
+        <div class="quotes_card q2">
+          <p>"First solve the problem then, write the code." - john jhonson</p>
+          <img
+            src="https://images.pexels.com/photos/167699/pexels-photo-167699.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="quotes kedua"
+          />
+        </div>
+        <div class="quotes_card q3">
+          <p>
+            "Experience is the name everyone give to their mistakes." - Oscar
+            Wilde
+          </p>
+          <img
+            src="https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="quotes ketiga"
+          />
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
